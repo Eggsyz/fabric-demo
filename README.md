@@ -6,7 +6,7 @@
 ./start.sh gm/sw 
 默认sw算法
 ```
-3. 打开main_test.go源文件或者执行go test命令，根据流程执行测试方法
+3. 进入fabric-demo 打开main_test.go源文件或者执行go test命令，根据流程执行测试方法
 note：需要根据选择的加密算法GM/SW修改config/config_e2e.yaml文档
 ``` 
 创建通道
