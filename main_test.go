@@ -17,7 +17,7 @@ var (
 	chainCodeVarsion  = "1.0"
 	chaincodeGoPath   = os.Getenv("GOPATH")
 	chaincodePath     = "fabric-demo/fabric/chaincode/chaincode_example02/go"
-	channelConfigPath = "./fabric/sw/channel-artifacts/channel.tx"
+	channelConfigPath = "./fabric/channel-artifacts/channel.tx"
 )
 
 func TestInitClient(t *testing.T) {
